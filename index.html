@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+      
+       <!-- Second Example with grid material layout-->
+      <div class="mdc-layout-grid">
+
+        <div class="mdc-layout-grid__inner">
+             <!--first column-->
+          <div class="mdc-layout-grid__cell">
+            <div class="mdc-card element" >
+                <p> 
+                    <i class="material-icons ">face</i> 
+                    New initake
+                </p>
+              </div>
+              <div class="mdc-card element">
+                <p>
+                    <i class="material-icons ">face</i> 
+                    Check in</p>
+              </div>
+              <div class="mdc-card element">
+                <p>
+                    <i class="material-icons ">face</i> 
+                    New medication
+                </p>
+              </div>
+              <div class="mdc-card element">
+                <p>
+                    <i class="material-icons ">face</i> 
+                    New incident
+                </p>
+            </div>
+            <div class="mdc-card element">
+                <p>
+                    <i class="material-icons ">face</i> 
+                    New progress note
+                </p>
+            </div>
+          </div>
+           <!--second column-->
+          <div class="mdc-layout-grid__cell">
+            <div class="mdc-card element">
+                <p>
+                    <i class="material-icons ">face</i> 
+                    Discharge
+                </p>
+            </div>
+            <div class="mdc-card element">
+                <p>
+                    <i class="material-icons ">face</i> 
+                    Check out
+                </p>
+            </div>
+            <div class="mdc-card element">
+                <p>
+                    <i class="material-icons ">face</i> 
+                    New treatment plan
+                </p>
+            </div>
+            <div class="mdc-card element">
+                <p>
+                    <i class="material-icons ">face</i> 
+                    New calendar event
+                </p>
+            </div>
+            <div class="mdc-card element">
+                <p>
+                    <i class="material-icons ">face</i> 
+                    New group note
+                </p>
+            </div>
+            <!--button inactive fab code-->
+            <div class="mdc-touch-target-wrapper">
+                <button class="mdc-fab mdc-fab--mini mdc-fab--touch">
+                  <div class="mdc-fab__ripple"></div>
+                  <span class="material-icons mdc-fab__icon">add</span>
+                  <div class="mdc-fab__touch"></div>
+                </button>
+              </div>
+               <!--button active fab code-->
+              <div class="mdc-touch-target-wrapper button">
+                <button class="mdc-fab mdc-fab--mini mdc-fab--touch">
+                  <div class="mdc-fab__ripple activeBbackround"></div>
+                  <span class="material-icons mdc-fab__icon activeButton">close</span>
+                  <div class="mdc-fab__touch"></div>
+                </button>
+              </div>
+         </div>
+         
+      </div>
+    <script src="./index.js"></script>
+</body>
+</html>
