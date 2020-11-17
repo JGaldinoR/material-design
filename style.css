@@ -1,0 +1,43 @@
+
+.my-card-content {
+    padding: 16px;
+    width: 30%;
+    
+  }
+  .mdc-card{
+    box-shadow: 0px 1px 9px 0px rgba(50, 50, 50, 0.77);
+    height: 60px;
+    border-radius:8px ;
+  }
+  .mdc-card:hover{
+    box-shadow: -3px 19px 17px 0px rgba(57, 50, 50, 0.65);
+  }
+  .my-card {
+    height: 350px;
+    width: 350px;
+  }
+  .container{
+    width: 45%; 
+  }
+
+  /**button inactive fab code*/
+
+  .mdc-fab__ripple{
+    background-color:rgb(52, 203, 203);
+  }
+  .mdc-fab__icon{
+    color: black;
+  }
+  .element{
+    margin-bottom: 15px;
+  }
+   /**button active fab code*/
+   .activeButton{
+    color:rgb(52, 203, 203);
+   }
+   .activeBbackround{
+     background-color: rgb(0, 51, 102);
+   }
+   
+ 
+  
